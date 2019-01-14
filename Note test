@@ -7,15 +7,10 @@ function createElementFromHTML(htmlString) {
 var waiter_tryExecution = function(tryToExecute_fn,executeSuccess_fn){
 	var _thread = function(){
 		try{
-		tryToExecute_fn()
-        /*
-		console.log("ddsasd")
-		document.adasdas()
-		*/
+			tryToExecute_fn()
 		}catch (err) {
-        	setTimeout(_thread, 200)
-        	return
-    	}
+        		setTimeout(_thread, 200)
+		}
 		executeSuccess_fn()
 	}
 	_thread()
