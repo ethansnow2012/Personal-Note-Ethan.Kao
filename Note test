@@ -4,16 +4,19 @@ function createElementFromHTML(htmlString) {
   return div.firstChild; 
 }
 
-var functionWrapper_waiter = function () {
-    try {
-        //condition
-        self;
-        $.ui.autocomplete;
-        this.autocompleteInit()
-        return
-    } catch (err) {
-        setTimeout(functionWrapper_waiter, 200)
-        return
-    }
-};
-functionWrapper_waiter();
+var waiter_tryExecution = function(tryToExecute_fn,executeSuccess_fn){
+	var _thread = function(){
+		try{
+		tryToExecute_fn()
+        /*
+		console.log("ddsasd")
+		document.adasdas()
+		*/
+		}catch (err) {
+        	setTimeout(_thread, 200)
+        	return
+    	}
+		executeSuccess_fn()
+	}
+	_thread()
+}
