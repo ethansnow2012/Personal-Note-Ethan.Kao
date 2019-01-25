@@ -8,10 +8,11 @@ var waiter_tryExecution = function(tryToExecute_fn,executeSuccess_fn){
 	var _thread = function(){
 		try{
 			tryToExecute_fn.bind(this)()
+			executeSuccess_fn.bind(this)()
 		}catch (err) {
         		setTimeout(_thread, 200)
 		}
-		executeSuccess_fn.bind(this)()
+		
 	}
 	_thread()
 }
