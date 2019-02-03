@@ -3,7 +3,8 @@ function createElementFromHTML(htmlString) {
   div.innerHTML = htmlString.trim();
   return div.firstChild; 
 }
-
+# My Creation
+```
 var waiter_tryExecution = function(tryToExecute_fn,executeSuccess_fn){
 	var _thread = function(){
 		try{
@@ -16,3 +17,4 @@ var waiter_tryExecution = function(tryToExecute_fn,executeSuccess_fn){
 	}
 	_thread()
 }
+```
