@@ -14,6 +14,24 @@ function proxy (target, sourceKey, key) {
     Object.defineProperty(target, key, sharedPropertyDefinition);
   }
 ```
+### 2.makeMap
+Mantra: Coding in string domain is so efficent so powerful but, without care, it can backfire easily. A factory function that convert things from string domain to logic domain is nice, isn't it?
+```
+function makeMap (
+    str,
+    expectsLowerCase
+  ) {
+    var map = Object.create(null);
+    var list = str.split(',');
+    for (var i = 0; i < list.length; i++) {
+      map[list[i]] = true;
+    }
+    return expectsLowerCase
+      ? function (val) { return map[val.toLowerCase()]; }
+      : function (val) { return map[val]; }
+  }
+```
+
 # Utility Found Online
 convert string into Html element
 ```
