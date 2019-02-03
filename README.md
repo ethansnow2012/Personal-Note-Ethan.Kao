@@ -24,7 +24,7 @@ var ut_waiter = function(tryToExecute_fn,executeSuccess_fn){
 	_thread()
 }
 ```
-# Some Awosome in Vue.js Source Code
+# Some Awesome in Vue.js Source Code
 ### 1.proxy
 Mantra: We all know the necessity to do DRY principle at our best. That is in 'logic' domain we do not repeat our self. How about in data domain? Keep the data from duplicating, shall we?
 
