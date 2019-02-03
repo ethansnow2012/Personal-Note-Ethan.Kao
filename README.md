@@ -8,8 +8,9 @@ you do not have anyway to 'listen' to it, this function may help you.
 
 It open new threads that execute the 'tryToExecute_fn' which either throw error to try again 200ms later or execute 'executeSuccess_fn' which is the function meant to be execute.
 
-P.S. Keep 'tryToExecute_fn' light for it do execute every 200ms.
-	
+BTW: 
+1. Keep 'tryToExecute_fn' light for it do execute every 200ms.
+2. Data can be passed between 'tryToExecute_fn' and 'executeSuccess_fn' via 'this'.
 ```
 var ut_waiter = function(tryToExecute_fn,executeSuccess_fn){
 	var _thread = function(){
