@@ -58,6 +58,18 @@ function makeMap (
       : function (val) { return map[val]; }
   }
 ```
+### 3. Nice Recursive function
+I forgot which line...
+Things like this:
+```
+function a(){
+	if (condition1){
+		a() //Recursive
+	}else {
+		//Do something at the end of recursion
+	}
+}
+```
 
 # Utility Found Online
 convert string into Html element
