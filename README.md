@@ -84,3 +84,4 @@ function createElementFromHTML(htmlString) {
 # Murmur
 1. In vue.js, I found this line `var perf = inBrowser && window.performance;` This is succinct but how can someone understand it exp. people from strong typed language.
 BTW, `true||'a'//return true` and `'a'||true //'a'`
+2. In my understanding, Factory Pattern takes in "plain values" and then return new "object"; Decoration Pattern takes in an "object" and then return a wrapped the object(without new).Correct?
