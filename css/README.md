@@ -12,3 +12,11 @@
 ```
 Note: It seems like only viable pure css solution. This works on ie10+, chrome, firefox but I am not sure "webkit"
 prefix is good for long term or should we just do it with Javascript.
+
+### Three kinds of rendering procedure
+
+1. JS / CSS > Style > Layout > Paint > Composite
+2. JS / CSS > Style-----------> Paint > Composite
+3. JS / CSS > Style--------------------> Composite
+
+In other words, you can avoid Layout phase or Paint phase for better performance.
