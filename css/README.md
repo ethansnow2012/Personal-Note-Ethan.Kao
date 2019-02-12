@@ -20,3 +20,15 @@ prefix is good for long term or should we just do it with Javascript.
 3. JS / CSS > Style--------------------> Composite
 
 In other words, you can avoid Layout phase or Paint phase for better performance.
+### 2-D center
+```
+      .center{
+        position:absolute;
+        top:50%;
+        left:50%;
+        background:green;
+        width:100px;
+        height:100px;
+        transform: translate3d(-50px,-50px,0px);/* 50px here co-dep. with width&&height */
+      }
+```
