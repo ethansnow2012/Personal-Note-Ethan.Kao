@@ -70,7 +70,14 @@ function a(){
 	}
 }
 ```
-
+### 4. Code Encapsulation
+```
+(function (global, factory) {
+	/* This is where the API interact with the context */
+}(this, function (){
+	/* Build the API here */
+})
+```
 # Utility Found Online
 convert string into Html element
 ```
