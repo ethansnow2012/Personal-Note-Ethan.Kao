@@ -81,6 +81,19 @@ function createElementFromHTML(htmlString) {
 }
 ```
  [Reference](https://stackoverflow.com/questions/494143/creating-a-new-dom-element-from-an-html-string-using-built-in-dom-methods-or-pro)
+
+# Javascript Technique
+1. Block(cluster) the scripts
+```
+{
+	console.log("log1");
+	console.log("log2");
+}
+```
+```
+2==1?2:(console.log("log1"),console.log("log2"))
+```
+
 # Murmur
 1. In vue.js, I found this line `var perf = inBrowser && window.performance;` This is succinct but how can someone understand it exp. people from strong typed language.
 BTW, `true||'a'//return true` and `'a'||true //'a'`
