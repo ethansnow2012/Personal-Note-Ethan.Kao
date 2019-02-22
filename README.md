@@ -109,4 +109,4 @@ BTW, `true||'a'//return true` and `'a'||true //'a'`
 4. One difficult part I encountered in multi-thread programing is that some thread once it invoked it will execute through even when context changed it ought to be canceled.
 5. Question: two AJAX wait for each other's result what is the best way to deal with it.
 6. Reminder: extract the embeded functions to be middle moderating variables if they are meaningful enough.
-7. Async code is hard to debug because some cases occur rarely.
+7. Async code is hard to debug because some cases occur rarely or are hard to replicate.
