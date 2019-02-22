@@ -108,4 +108,4 @@ BTW, `true||'a'//return true` and `'a'||true //'a'`
 3. Framework and libraries bring in some power but also introduce some limitation. Beware.
 4. One difficult part I encountered in multi-thread programing is that some thread once it invoked it will execute through even when context changed it ought to be canceled.
 5. Question: two AJAX wait for each other's result what is the best way to deal with it.
-6. Reminder: extract the embeded functions to be middle moderating variables if it is meaningful enough.
+6. Reminder: extract the embeded functions to be middle moderating variables if they are meaningful enough.
