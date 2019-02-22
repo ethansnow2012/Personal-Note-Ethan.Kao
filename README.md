@@ -107,3 +107,4 @@ BTW, `true||'a'//return true` and `'a'||true //'a'`
 2. In my understanding, Factory Pattern takes in "plain values" and then return new "object"; Decoration Pattern takes in an "object" and then return a wrapped the object(without new). Correct?
 3. Framework and libraries bring in some power but also introduce some limitation. Beware.
 4. One difficult part I encountered in multi-thread programing is that some thread once it invoked it will execute through even when context changed it ought to be canceled.
+5. Question: two AJAX wait for each other's result what is the best way to deal with it.
