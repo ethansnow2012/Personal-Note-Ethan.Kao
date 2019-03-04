@@ -58,7 +58,7 @@ function makeMap (
       : function (val) { return map[val]; }
   }
 ```
-### 3. Nice Recursive function
+### 3. Nice Recursive Function
 I forgot which line...
 Things like this:
 ```
