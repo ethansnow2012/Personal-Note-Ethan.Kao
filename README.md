@@ -86,6 +86,11 @@ function createElementFromHTML(htmlString) {
   div.innerHTML = htmlString.trim();
   return div.firstChild; 
 }
+
+// innovate from above
+function newHtmlInstance(htmlElement){
+  return createElementFromHTML(htmlElement.outerHTML)
+}
 ```
  [Reference](https://stackoverflow.com/questions/494143/creating-a-new-dom-element-from-an-html-string-using-built-in-dom-methods-or-pro)
 
