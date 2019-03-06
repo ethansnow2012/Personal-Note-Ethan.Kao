@@ -115,3 +115,4 @@ BTW, `true||'a'//return true` and `'a'||true //'a'`
 5. Question: two AJAX wait for each other's result what is the best way to deal with it.
 6. Reminder: extract the embeded functions to be middle moderating variables if they are meaningful enough.
 7. Async code is hard to debug because some cases occur rarely or are hard to replicate.
+8. Hide inside the "template"(HTML element) then you can escape the positioning spell from queryselector.
