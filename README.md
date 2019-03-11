@@ -94,6 +94,17 @@ function newHtmlInstance(htmlElement){
 ```
  [Reference](https://stackoverflow.com/questions/494143/creating-a-new-dom-element-from-an-html-string-using-built-in-dom-methods-or-pro)
 
+detechAllEvent
+```
+var detechAllEvent = function(element){
+	var old = element
+	var clone = old.cloneNode(true)
+	var parent = old.parentElement
+	parent.insertBefore(clone, old)
+	parent.removeChild(old)
+  }
+```
+
 # Javascript Technique
 1. Block(cluster) the scripts
 ```
