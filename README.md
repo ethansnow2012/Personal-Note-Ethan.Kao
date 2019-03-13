@@ -127,3 +127,7 @@ BTW, `true||'a'//return true` and `'a'||true //'a'`
 6. Reminder: extract the embeded functions to be middle moderating variables if they are meaningful enough.
 7. Async code is hard to debug because some cases occur rarely or are hard to replicate.
 8. Hide inside the "template"(HTML element) then you can escape the positioning spell from queryselector.
+
+# Idea to be implemented
+1. How to get first array, string or else in a object
+
