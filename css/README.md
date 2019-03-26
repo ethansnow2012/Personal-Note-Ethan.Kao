@@ -40,7 +40,6 @@ In other words, you can avoid Layout phase or Paint phase for better performance
   display:flex;
   justify-content: center;
   align-items: center;
-  /*position:relative;*/
 }
 .bb{
   width:50%;
