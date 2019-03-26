@@ -32,3 +32,22 @@ In other words, you can avoid Layout phase or Paint phase for better performance
         transform: translate3d(-50px,-50px,0px);/* 50px here co-dep. with width&&height */
       }
 ```
+```
+.aa{
+  width:100px;
+  height:100px;
+  background:grey;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  /*position:relative;*/
+}
+.bb{
+  width:50%;
+  height:50%;
+  background:red;
+}
+<div class="aa">
+  <div class="bb"></div>
+</div>
+```
