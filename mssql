@@ -1,3 +1,4 @@
+1. Adding date
 ```
 select GETDATE()
 select GETDATE()+1
