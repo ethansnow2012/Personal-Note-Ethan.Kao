@@ -1,0 +1,9 @@
+```
+select GETDATE()
+select GETDATE()+1
+select year(GETDATE())+1
+select DateAdd(yy, +1, GetDate())
+select DateAdd(yy, +1, '2020-03-27 08:33:55.680')
+update [MAS_RetailTradeShow].[dbo].[VAS_IVS_MetaData_trial]
+set UpdateTime = DateAdd(yy, +1, UpdateTime)
+```
