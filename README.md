@@ -128,4 +128,4 @@ BTW, `true||'a'//return true` and `'a'||true //'a'`
 7. Async code is hard to debug because some cases occur rarely or are hard to replicate.
 8. Hide inside the "template"(HTML element) then you can escape the positioning spell from queryselector.
 9. In procedure programming, sometimes the logic we need is a inseparable part of the procedure. It is harmful to DRY.
-10. When doing declarative programming in Javascript, the "declare" should also be a function object so that we can use "this". Afterall function is "value", is part of the declare. 
+10. When doing declarative programming in Javascript, the "declare" should also be a function object so that we can use "this". Afterall function is "value", is part of the declare. But how about JSON object.
