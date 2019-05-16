@@ -131,6 +131,6 @@ BTW, `true||'a'//return true` and `'a'||true //'a'`
 10. When doing declarative programming in Javascript, the "declare" should also be a function object so that we can use "this". Afterall function is "value", is part of the declare. But how about JSON object.
 11. Html elements with two ids can not be selected by "document.querySelector" & "document.getElementById"!! Why not?
 # other...
-'''
+```
 fetch("https://www.acti.com/corpweb/ACTi3.0/Solutions/Ajax/getSearchdata.ashx?l=en").then(x=> x.text()).then(x=>console.log(x))
-'''
+```
