@@ -24,6 +24,24 @@ var ut_waiter = function(tryToExecute_fn,executeSuccess_fn){
 	}
 	_thread()
 }
+// example
+                var a = false, b = false, c = false
+                ut_waiter(function(){
+                	console.log("trying")
+                 if(a != true){
+                	throw "Try again later!";
+                	}
+                if(b != true){
+                	throw "Try again later!";
+                	}
+                if(c != true){
+                	throw "Try again later!";
+                	}
+                },function(){
+                  console.log("finished")
+                })
+                setTimeout(function(){ a = true; b = true},2000)
+                setTimeout(function(){ c = true;},3000)
 ```
 # Some Awesome in Vue.js Source Code
 ### 1.proxy
