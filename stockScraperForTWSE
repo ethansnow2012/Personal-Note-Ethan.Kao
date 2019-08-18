@@ -1,1 +1,18 @@
 
+1. Go to https://www.twse.com.tw && open console
+2. use the js below:
+
+// config the date range
+var dateFrom = 2015081
+var dateTo = 20190818
+// ....
+// ....
+
+// get the data by date
+fetch('https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20190818&stockNo=2330&_=1566122630315')
+  .then(function(response) {
+    return response.json();
+  })
+  .then(function(myJson) {
+    console.log(myJson);
+  });
