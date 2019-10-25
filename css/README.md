@@ -50,3 +50,18 @@ In other words, you can avoid Layout phase or Paint phase for better performance
   <div class="bb"></div>
 </div>
 ```
+
+### multi-line overflow css
+```
+display: block;
+    display: -webkit-box;
+    max-width: 400px;
+    margin: 0 auto;
+    line-height: 1.4;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    /* border-radius: 15px;
+```
