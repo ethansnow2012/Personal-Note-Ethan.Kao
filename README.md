@@ -154,6 +154,24 @@ var detechAllEvent = function(element){
 ```
 2==1?2:(console.log("log1"),console.log("log2"))
 ```
+# Best Javascript Loading
+```
+(function() {
+	function ready(fn) {
+		if (document.readyState != 'loading'){
+			fn();
+		} else {
+			document.addEventListener('DOMContentLoaded', fn);
+		}
+	}
+	
+	
+	
+	ready(function() {
+	    // do something here
+	});
+})();
+```
 
 # Murmur
 1. In vue.js, I found this line `var perf = inBrowser && window.performance;` This is succinct but how can someone understand it exp. people from strong typed language.
