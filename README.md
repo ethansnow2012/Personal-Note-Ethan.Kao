@@ -172,7 +172,7 @@ var detechAllEvent = function(element){
 	});
 })();
 ```
-
+-- from https://codepen.io/nw/pen/WQmxYY
 # Murmur
 1. In vue.js, I found this line `var perf = inBrowser && window.performance;` This is succinct but how can someone understand it exp. people from strong typed language.
 BTW, `true||'a'//return true` and `'a'||true //'a'`
