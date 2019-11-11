@@ -1,1 +1,4 @@
 
+array_map(function($key, $value) {
+    return [$key => $value];
+}, array_keys($my_array), $my_array);
