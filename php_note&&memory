@@ -22,3 +22,6 @@ function foo($blah, $x = null, $y = null) {
     code here!
 
 }
+
+
+function ($var) use ($filterBy) {
