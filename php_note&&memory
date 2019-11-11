@@ -9,3 +9,16 @@ $result = array_combine(
      array_keys($arr), 
      array_map(function($v){ return $v; }, $arr)
 );
+
+function foo($blah, $x = null, $y = null) {
+    if (null === $x) {
+        $x = "some value";
+    }
+
+    if (null === $y) {
+        $y = "some other value";
+    }
+
+    code here!
+
+}
