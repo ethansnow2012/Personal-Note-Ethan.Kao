@@ -1,7 +1,6 @@
 ### Text: Two Line
 ```
 .text-twoLine{
-	color: #535353;
 	line-height: 1.4;/* not too crowded*/
 	overflow: hidden;
 	text-overflow: ellipsis;
