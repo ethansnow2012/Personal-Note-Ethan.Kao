@@ -18,3 +18,22 @@ var waiter_tryExecution = function(tryToExecute_fn,executeSuccess_fn){
 	_thread()
 }
 ```
+==============================
+
+```
+$("#nav-pos").on('click',function(ev){
+			console.log(ev.target)
+
+			$("#nav-dropdown").toggle();
+
+			var toggle_display = $("#nav-dropdown").css("display")
+			if(toggle_display=="flex"){
+					document.querySelector("body").addEventListener("click",function(ev){
+
+					$("#nav-dropdown").toggle();
+					this.removeEventListener("click", arguments.callee, true)
+				},true)
+			}
+
+		})
+```
