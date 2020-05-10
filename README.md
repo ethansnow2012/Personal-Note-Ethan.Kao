@@ -233,3 +233,6 @@ BTW, `true||'a'//return true` and `'a'||true //'a'`
 ```
 fetch("https://www.acti.com/corpweb/ACTi3.0/Solutions/Ajax/getSearchdata.ashx?l=en").then(x=> x.text()).then(x=>console.log(x))
 ```
+```
+https://gist.github.com/getify/5572383?fbclid=IwAR0WZjMM9mPtb0jqoOzNPgYeDdwh-qsgDDDb4wqzr8E4L__qByD_66WIWZA
+```
