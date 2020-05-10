@@ -229,10 +229,12 @@ BTW, `true||'a'//return true` and `'a'||true //'a'`
 9. In procedure programming, sometimes the logic we need is a inseparable part of the procedure. It is harmful to DRY.
 10. When doing declarative programming in Javascript, the "declare" should also be a function object so that we can use "this". Afterall function is "value", is part of the declare. But how about JSON object.
 11. Html elements with two ids can not be selected by "document.querySelector" & "document.getElementById"!! Why not?
+# OOLO
+```
+https://gist.github.com/getify/5572383?fbclid=IwAR0WZjMM9mPtb0jqoOzNPgYeDdwh-qsgDDDb4wqzr8E4L__qByD_66WIWZA
+```
 # other...
 ```
 fetch("https://www.acti.com/corpweb/ACTi3.0/Solutions/Ajax/getSearchdata.ashx?l=en").then(x=> x.text()).then(x=>console.log(x))
 ```
-```
-https://gist.github.com/getify/5572383?fbclid=IwAR0WZjMM9mPtb0jqoOzNPgYeDdwh-qsgDDDb4wqzr8E4L__qByD_66WIWZA
-```
+
