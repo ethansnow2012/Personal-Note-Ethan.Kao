@@ -64,3 +64,7 @@ display: block;
     font-size: 14px;
     /* border-radius: 15px;
 ```
+other
+```
+filter: drop-shadow(0px 1px 30px #fff);
+```
