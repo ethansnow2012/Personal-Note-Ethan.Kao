@@ -1,0 +1,18 @@
+PHP
+```
+$aa_array = [1,2,3,4];
+
+
+foreach([1,2,3,4,5,6,7,8,9,10,11] as $v){
+  if(isset($aa_array[$v])){
+    $rtn_array[] = $aa_array[$v];
+  }else{
+    if($v<=7){
+     $rtn_array[] = "X";
+    } 
+  }
+}
+
+
+var_dump($rtn_array);
+```
