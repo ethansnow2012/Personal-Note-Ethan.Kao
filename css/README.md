@@ -68,3 +68,6 @@ other
 ```
 filter: drop-shadow(0px 1px 30px #fff);
 ```
+```
+RequestAnimationFrame 
+```
