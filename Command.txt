@@ -16,3 +16,7 @@ sed s/regexp/replacement/: substitute string matching regexp with replacement.
 sed s/regexp/replacement/g: global, make the substitution for each match instead of only the first match.
 ```
 Sourc: https://stackoverflow.com/questions/11392478/how-to-replace-a-string-in-multiple-files-in-linux-command-line
+
+========================================
+
+ls -1 | xargs -n 1 echo "hello"
