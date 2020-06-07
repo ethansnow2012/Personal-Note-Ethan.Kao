@@ -5,3 +5,5 @@ js
 ```
 1. how to change "onXXXevent = function(){}" to promise 
 ```
+
+Beware of what you trying to accomplish in every programing decision like inherency, proxy....
