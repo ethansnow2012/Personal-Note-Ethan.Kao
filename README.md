@@ -237,4 +237,12 @@ https://gist.github.com/getify/5572383?fbclid=IwAR0WZjMM9mPtb0jqoOzNPgYeDdwh-qsg
 ```
 fetch("https://www.acti.com/corpweb/ACTi3.0/Solutions/Ajax/getSearchdata.ashx?l=en").then(x=> x.text()).then(x=>console.log(x))
 ```
-
+# goto_project__element
+```
+function goto_project__element(q_str, url_path){
+  if(!document.querySelector(q_str)){
+    location.href = location.origin + url_path
+  }
+  scrollto(q_str)
+}
+```
