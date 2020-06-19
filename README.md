@@ -245,4 +245,13 @@ function goto_project__element(q_str, url_path){
   }
   scrollto(q_str)
 }
+function scrollto(q_str){
+var wrapper = document.querySelector(q_str).closest(".body-content-wrapper")
+var offset = document.querySelector(q_str).offsetTop
+window.scrollTo({
+	top: offset,
+	left: 0,
+	behavior: 'smooth'
+	})
+}
 ```
