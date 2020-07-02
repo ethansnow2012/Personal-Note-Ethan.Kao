@@ -71,5 +71,15 @@ filter: drop-shadow(0px 1px 30px #fff);
 ```
 RequestAnimationFrame 
 ```
+```
+image-rendering: -moz-crisp-edges;         /* Firefox */
+image-rendering:   -o-crisp-edges;         /* Opera */
+image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */
+image-rendering: crisp-edges;
+-ms-interpolation-mode: nearest-neighbor;  /* IE (non-standard property) */
+```
 
 https://www.youtube.com/watch?v=UQRSaG1hQ20
+
+
+
