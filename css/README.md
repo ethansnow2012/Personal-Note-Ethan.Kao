@@ -82,4 +82,6 @@ image-rendering: crisp-edges;
 https://www.youtube.com/watch?v=UQRSaG1hQ20
 
 
+# Lottie animations to HTML
+https://www.youtube.com/watch?v=xYQ-HdVfBSA
 
