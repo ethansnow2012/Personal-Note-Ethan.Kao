@@ -87,4 +87,12 @@ https://www.youtube.com/watch?v=72qbebvwxnY
 # Lottie animations to HTML
 https://www.youtube.com/watch?v=xYQ-HdVfBSA
 
+# Dealing with image blur
+```
+image-rendering: -moz-crisp-edges;         /* Firefox */
+image-rendering:   -o-crisp-edges;         /* Opera */
+image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */
+image-rendering: crisp-edges;
+```
+-ms-interpolation-mode: nearest-neighbor;  /* IE (non-standard property) */
 
