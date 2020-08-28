@@ -21,3 +21,13 @@ promise-based popup
 social media 背單字
 
 lightning decision website
+
+JS: function pip ()
+```
+const pipe = (funcs, func_contrast, v) => {
+  funcs.reduce((res, func, ii) => {
+    res = func_contrast[ii](res)
+    return func(res);
+  }, v);
+};
+```
