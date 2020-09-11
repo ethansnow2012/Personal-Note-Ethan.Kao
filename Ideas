@@ -31,3 +31,5 @@ const pipe = (funcs, func_contrast, v) => {
   }, v);
 };
 ```
+
+4人共筆
