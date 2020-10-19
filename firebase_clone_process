@@ -9,4 +9,12 @@
     - "git add ."
     - 'git commit -m "first"'
     - "git push --set-upstream origin master"
-
+3. firebase 設定
+  - 登入方式 (email)
+  - firestore 開啟
+  - firestorage 開啟
+    - firestorage rule
+  - firebase hosting 開啟
+  - firebase functions 開啟 
+  - replace adminsdk key(json file) in Settings>>服務帳戶
+4. firebase deploy !!!!!!!!
