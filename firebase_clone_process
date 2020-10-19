@@ -1,0 +1,12 @@
+1.
+  - copy local file
+    - remove .git file for savety
+  - create new github repo
+  - create firebase application(web)
+2. 
+  - push local file to remote git repo
+    - "git init"
+    - "git add ."
+    - 'git commit -m "first"'
+    - "git push --set-upstream origin master"
+
