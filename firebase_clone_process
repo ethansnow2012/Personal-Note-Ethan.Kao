@@ -17,4 +17,7 @@
   - firebase hosting 開啟
   - firebase functions 開啟 
   - replace adminsdk key(json file) in Settings>>服務帳戶
+  - replace firebaseConfig (in frontend) (copy from firebase console) 
+  - bill plan 升級
+  -  .firebaserc 指定專案
 4. firebase deploy !!!!!!!!
