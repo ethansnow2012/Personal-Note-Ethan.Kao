@@ -2,3 +2,4 @@
 ＤＲＹ
 postpone optimise
 keep the codebase flat is one of the most important job for a good code.
+minimize mutable state/minimize mutable logic
