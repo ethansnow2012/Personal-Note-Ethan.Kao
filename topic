@@ -4,4 +4,4 @@ postpone optimise
 keep the codebase flat is one of the most important job for a good code.
 minimize mutable state/minimize mutable logic
 如何完成ＤＲＹ而保持彈性
-object mutual dependent
+object mutual dependent && runtime object dependent
