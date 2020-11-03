@@ -7,3 +7,4 @@ minimize mutable state/minimize mutable logic
 object mutual dependent && runtime object dependent
 complexity leak
 codeing to a battle wite the unknow
+manage the dependency
