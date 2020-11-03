@@ -8,3 +8,4 @@ object mutual dependent && runtime object dependent
 complexity leak
 codeing to a battle wite the unknow
 manage the dependency
+layered structure is crucial for scaling
