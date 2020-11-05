@@ -10,3 +10,4 @@ codeing to a battle wite the unknow
 manage the dependency
 layered structure is crucial for scaling
 javascript closure && variable life time
+Block the function/object context is silly. Mindfull of it is the better way.
