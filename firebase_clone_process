@@ -30,3 +30,4 @@
   - make sure /public/index.html not exist
   - edit decodedClaims.email=="xxxxx" in factory__express_handle
   - firebase target:apply hosting app <project name>
+  - storage.rules(local)
