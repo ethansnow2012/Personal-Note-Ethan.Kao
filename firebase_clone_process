@@ -21,7 +21,7 @@
    - CLI: firebase deploy
   - firebase functions 開啟 
     - npm install -g firebase-tools
-  - replace adminsdk key(json file) in Settings>>服務帳戶
+  - replace adminsdk key(json file) in Settings>>服務帳戶>>admin.initializeApp
   - replace firebaseConfig (in frontend) (copy from firebase console) in 'Firebase SDK snippet' >> 設定
   - bill plan 升級
   -  .firebaserc 指定專案
