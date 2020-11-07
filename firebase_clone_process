@@ -27,3 +27,4 @@
   - bill plan 升級
   -  .firebaserc 指定專案
 4. firebase deploy !!!!!!!!
+  - make sure /public/index.html not exist
