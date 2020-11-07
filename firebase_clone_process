@@ -16,6 +16,9 @@
   - firestorage 開啟
     - firestorage rule
   - firebase hosting 開啟
+   - CLI: firebase login
+   - CLI: firebase init
+   - CLI: firebase deploy
   - firebase functions 開啟 
   - replace adminsdk key(json file) in Settings>>服務帳戶
   - replace firebaseConfig (in frontend) (copy from firebase console) in 'Firebase SDK snippet' >> 設定
