@@ -11,7 +11,7 @@
     - "git push --set-upstream origin master"
 3. firebase 設定
   - 登入方式 (email)
-    - remember the email and password or take notes
+    - create user && remember the email and password or take notes
   - firestore 開啟
   - firestorage 開啟
     - firestorage rule
