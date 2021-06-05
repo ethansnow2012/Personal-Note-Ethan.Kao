@@ -58,7 +58,7 @@ function proxy (target, sourceKey, key) {
     };
     Object.defineProperty(target, key, sharedPropertyDefinition);
   }
-```
+``` 
 ### 2.makeMap
 Mantra: Coding in string domain is so efficent so powerful but, without care, it can backfire easily. A factory function that convert things from string domain to logic domain is nice, isn't it?
 ```
