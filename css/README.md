@@ -100,3 +100,9 @@ image-rendering: crisp-edges;
 ```
 https://www.transparenttextures.com/
 ```
+
+# scroll bar
+```
+https://codepen.io/mant0u/pen/qBoqbLP?editors=1100
+```
+
