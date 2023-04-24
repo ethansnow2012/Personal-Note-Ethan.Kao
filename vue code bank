@@ -1,0 +1,11 @@
+```
+const handleRefAssign = (refs: Ref<null | HTMLElement>[])=>{
+  return (el: any)=>{
+    if(el instanceof HTMLElement){
+      refs.forEach((x)=>{
+        x.value = el
+      })
+    }
+  }
+}
+```
